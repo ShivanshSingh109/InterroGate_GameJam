@@ -1,4 +1,1 @@
-<iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/qv2nTtc8PIo" 
-    frameborder="0" allowfullscreen>
-</iframe>
+[![Watch the video](https://img.youtube.com/vi/qv2nTtc8PIo/0.jpg)](https://youtu.be/qv2nTtc8PIo)
