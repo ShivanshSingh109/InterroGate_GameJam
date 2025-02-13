@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murder Mystery Game with Llama Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <div class="game-container">
+        <div class="left-panel">
+            <!-- Victim Details -->
+            <div id="victim-card" class="card">
+                <h2>Victim Details</h2>
+                <p id="victim-info">
+                    <strong>Name:</strong> {{ mystery_data['Victim Details']['name'] }}<br>
+                    <strong>Cause of Death:</strong> {{ mystery_data['Victim Details']['cause of death'] }}<br>
+                    <strong>Time of Murder:</strong> {{ mystery_data['Victim Details']['time of murder'] }}
+                </p>
+                <button id="cancel-victim">Cancel</button>
+            </div>
+            <button id="show-victim-info" class="hidden">Victim Info</button>
+
+            <!-- Suspects -->
+            <h2>Suspects</h2>
+            <div id="suspect-list">
+                {% for suspect in mystery_data['Suspects'] %}
+                    <div class="suspect">
+                        <strong>{{ suspect['name'] }}</strong>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <button id="choose-murderer">Choose Murderer</button>
+        </div>
+
+        <div class="right-panel">
+            <button id="load-mystery">Load Murder Mystery</button>
+            <div class="chat-container">
+                <h2>Llama Chat</h2>
+                <div id="chatbox">
+                    <div class="message system">Welcome to the Murder Mystery Game! Ask me questions.</div>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="user-input" placeholder="Type a message...">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+</html>

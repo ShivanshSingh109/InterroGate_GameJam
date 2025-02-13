@@ -1,0 +1,41 @@
+{
+    "Victim Details": {
+        "name": "Reginald Pembroke",
+        "cause of death": "single bullet wound to the chest",
+        "time of murder": "9:45 PM, January 15th"
+    },
+    "Suspects": [
+        {
+            "id": 1,
+            "name": "Mrs. White",
+            "statement": "I was in the kitchen preparing dinner at 9 PM. I didn't leave until 10 PM when Mr. Parker asked me to bring him a glass of wine."
+        },
+        {
+            "id": 2,
+            "name": "James Parker",
+            "statement": "I was in my room, working on some business documents, from 8:30 PM onwards. I didn't hear or see anything unusual."
+        },
+        {
+            "id": 3,
+            "name": "Emily Pembroke",
+            "statement": "I was in the garden, taking a walk to clear my head, at around 9:15 PM. I saw nothing suspicious."
+        },
+        {
+            "id": 4,
+            "name": "Thomas Brown",
+            "statement": "I was in the attic, doing some cleaning and organizing, from 8:45 PM until Mr. Pembroke's death."
+        }
+    ],
+    "Killer": {
+        "name": "James Parker",
+        "method": "single bullet wound to the chest"
+    },
+    "Gameplay Mechanics": {
+        "interrogate": {
+            "Mrs. White": "",
+            "James Parker": "",
+            "Emily Pembroke": "",
+            "Thomas Brown": ""
+        }
+    }
+}

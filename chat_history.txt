@@ -1,0 +1,49 @@
+**Welcome to "Mystery at Willow Manor"**
+
+You are the detective tasked with solving the murder of wealthy businessman, **Reginald Pembroke**, who was found dead in his study at 9:45 PM on the night of January 15th. The cause of death is a single bullet wound to the chest.
+
+**The Suspects:**
+
+1. **Mrs. White**: Butler, loyal and discreet, but with a sharp tongue.
+2. **James Parker**: Guest, Reginald's business partner, charming but dishonest.
+3. **Emily Pembroke**: Victim's daughter, quiet and reserved, but with a hidden agenda.
+4. **Thomas Brown**: Housekeeper, kind and gentle, but with a secret past.
+
+**Statements from Each Suspect:**
+
+1. Mrs. White: "I was in the kitchen preparing dinner at 9 PM. I didn't leave until 10 PM when Mr. Parker asked me to bring him a glass of wine."
+2. James Parker: "I was in my room, working on some business documents, from 8:30 PM onwards. I didn't hear or see anything unusual."
+3. Emily Pembroke: "I was in the garden, taking a walk to clear my head, at around 9:15 PM. I saw nothing suspicious."
+4. Thomas Brown: "I was in the attic, doing some cleaning and organizing, from 8:45 PM until Mr. Pembroke's death."
+
+**Gameplay Mechanics:**
+
+You can interrogate each suspect by asking them specific questions about their alibi or providing additional information to help you analyze their statement.
+
+To accuse someone of being the killer, simply type "Accuse [Suspect Name]" at any time during the game.
+
+**Let's begin!**
+
+What would you like to do first?
+
+A) Ask Mrs. White about her alibi
+B) Investigate James Parker's business documents
+C) Talk to Emily Pembroke about her walk in the garden
+D) Question Thomas Brown about his presence in the attic
+
+Choose your response:User: Thomas Brown did you see anything?/nAI: "I was busy cleaning and didn't look out of the window, but I remember hearing a loud noise around 9:45 PM. At first, I thought it was just the wind or a tree branch breaking, but then I heard footsteps coming from downstairs."/nUser: Thomas Brown did you see James Parker?/nAI: "I didn't see Mr. Parker, but I remember hearing him talking to someone in the hallway around 9:30 PM. It sounded like they were having a heated conversation."/nUser: Emily Pembroke did anything happen to Reginald?/nAI: **Investigation Continues**
+
+You ask Thomas Brown if he saw James Parker, and he mentions hearing them having a heated conversation in the hallway around 9:30 PM.
+
+Next, you decide to question Emily Pembroke about any potential conflicts with her father. You ask her if anything had happened to Reginald recently, but she remains quiet and reserved.
+
+Emily Pembroke's response:
+
+"No... nothing that I know of. We just had a disagreement about the family business last week, but it was nothing out of the ordinary."
+
+What would you like to do next?
+
+A) Ask Thomas Brown more about his conversation with James Parker
+B) Press Emily Pembroke for more information about her disagreement with Reginald
+C) Investigate James Parker's alibi further
+D) Accuse one of the suspects/n
