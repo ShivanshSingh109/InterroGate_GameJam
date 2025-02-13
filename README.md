@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Embedded Video</title>
     <style>
         .video-container {
             display: flex;
